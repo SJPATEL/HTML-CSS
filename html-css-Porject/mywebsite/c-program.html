@@ -1,0 +1,663 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="/prism.css">
+    <script src="/prism.js"></script>
+    <title> C-program </title>
+</head>
+<body class="c-p-body">
+    <h1 class="text-red h1-1" > All C program for list wise of<br> Program </h1>
+    <!-- <h2 class="text-light"><span class="text-red">Note =></span>if you are use this c-coding , you are change "[" for "<"  and after use</h2> -->
+    <!-- <a href="index.css" class="btn2 text-red a-1">Home</a> -->
+    <div class="container">
+        <ul class="c-program">
+            <h2 class="text-black"><span class="text-red"> =></span> &emsp14; No 2,3 program are joint</h2>
+            <li><pre class="language-c language"><code>/* This Program is used to claclulate area of ranctangle and squre 
+*/
+#include&lt;stdio.h> 
+#include&lt;conio.h> 
+void main(void) 
+{ 
+  int l,b,ra,as;  
+  clrscr(); 
+  printf("Enter the lambi end brath\n"); 
+  scanf("%d%d",&l,b); 
+  ra=l*b; 
+  as=l*l; 
+  printf("area of rectangle=%d\n",ra); 
+  printf("area of squre=%d\n",as); 
+  getch(); 
+} 
+
+Out put:
+Enter the lambi end brath  
+5 
+5 
+area of rectangle =25 
+area of squre=25
+            </code></pre></li>
+    
+            <h2 class="text-black "><span class="text-red"> =></span> &emsp14; No 4 program</h2>
+            <li><pre class="language-c language"><code>/* This program is used to claculate area of circle */
+#include&lt;stdio.h> 
+#include&lt;conio.h> 
+#define PI 3.14
+void main(void) 
+{ 
+   float r,a; 
+   clrscr(); 
+   printf("Enter the radiuse for circle\n"); 
+   scanf("%d",&r); 
+   a=PI*r*r; 
+   printf("area of circle=%d\n",a); 
+   getch(); 
+} 
+
+Out put:
+Enter the radiuse for circle 
+5 
+area of circle=78.500000</code></pre></li>
+
+            <h2 class="text-black"><span class="text-red"> =></span> &emsp14; No 5 program          </h2>
+            <li><pre class="language-c language"><code>/* This program content is calculatte simple interast (si) */ 
+#include&lt;stdio.h> 
+#include&lt;conio.h> 
+void main(void) 
+{ 
+    int p,r,n,si; 
+    clrscr(); 
+    printf("Enter the value of p , r and n \n"); 
+    scanf("%d%d%d",&p,&r,&n); 
+    si=p*r*n/100 ; 
+    printf("The simple interest is =%d\n",si); 
+    getch(); 
+} 
+
+Out put:
+Enter the value of p , r and n 
+1200 
+10 
+1 
+The simple interast is =125 </code></pre></li> 
+            
+            <h2 class="text-black"><span class="text-red"> =></span> &emsp14; No 6 program          </h2>
+            <li><pre class="language-c language"><code>/* This program is contant claculate area of rectange ,cube and triungle */  <br>
+#include&lt;stdio.h> 
+#include&lt;conio.h> 
+void main(void) 
+{ 
+    int ar,l,b,at,h,ac; 
+    clrscr(); 
+    printf("Enter the lambi and brath for area of rectange \n"); 
+    scanf("%d%d",&l,&b); 
+    ar=l*b; 
+    printf("area of rectange is =%d\n",ar); 
+    printf("Enter the value for h and b \n"); 
+    scanf("%d%d",&h,&b); 
+    at=(h*b)/2; 
+    printf("area of triungle=%d\n"); 
+    printf("Enter the value of l\n"); 
+    scanf("%d",&l); 
+    ac=l*l*l; 
+    printf("area of cube=%d\n",ac); 
+    getch(); 
+} 
+
+Out put:
+Enter the lambi and brath for area of rectange 
+5 
+5 
+area of rectange is =25 
+Enter the value for h and b 
+4 
+8 
+area of triungle =32 
+Enter the value of l 
+3 
+area of cube=27</code></pre></li>
+
+            <h2 class="text-black"><span class="text-red"> =></span> &emsp14; No 7 program          </h2>
+            <li><pre class="language-c language"><code>/* This program is contant calculate area of spheare and volume of spheare */  
+#include&lt;stdio.h> 
+#include&lt;conio.h> 
+#define PI 3.14
+void main(void) 
+{ 
+    float as,r,vs; //float = return point value   
+    clrscr(); 
+    printf("Enter the value of r\n"); 
+    scanf("%f",&r); 
+    as=4*PI*r*r*r; 
+    printf("area of spheare =%f\n",as); 
+    printf("Enter the value of r\n"); 
+    scanf("%f",&r); 
+    vs=4*PI*r*r*r/3; 
+    printf("volum of spheare =%f\n",vs); 
+    getch(); 
+} 
+
+Out put:
+Enter the value of r 
+5 
+area of spheare=314.000000 
+Enter the value of r 
+4 
+volum of spheare=267.946655 </code></pre></li>
+            
+            <h2 class="text-black"><span class="text-red"> =></span> &emsp14; No 8 program          </h2>
+            <li><pre class="language-c language"><code>/* This program is used to celciuse for feranhit (sorry spaling misting) */ 
+#include&lt;stdio.h> 
+#include&lt;conio.h> 
+void main(void) 
+{ 
+    int f; 
+    float c; 
+    clrscr(); 
+    printf("Enter the value of f \n"); 
+    scanf("%d",&f); 
+    c=(f-32)/1.8; 
+    printf("celciuse=%f\n",c); 
+    getch(); 
+
+} 
+
+Out put:
+    Enter the value of f 
+    80 
+    celciuse=26.666666 </code></pre></li>
+
+            <h2 class="text-black"><span class="text-red"> =></span> &emsp14; No 9 program          </h2>
+            <li><pre class="language-c language"><code>
+/* This program is contant convert days into years,months and days */ 
+#include&lt;stdio.h> 
+#include&lt;conio.h> 
+void main(void) 
+{ 
+    int days,years,month,day;
+    clrscr(); 
+    printf("Enter days for convert years , month and days \n");
+    scanf("%d",&days);
+    years=days/365;
+    day=days%365;
+    month=month/30;
+    day=month%30
+    printf("Years=%d",years);
+    printf("Month=%d",month);
+    printf("Days=%d",day);
+    getch();  
+
+Out put:
+    Enter days for convert years , month and days 
+    500 
+    Years=1 
+    Month=43 
+    Days=13 </code></pre></li>
+            
+            <h2 class="text-black"><span class="text-red"> =></span> &emsp14; No 10 program          </h2>
+            <li><pre class="language-c language"><code>/* This program is contant use typedef */ 
+#include&lt;stdio.h> 
+#include&lt;conio.h> 
+void main(void) 
+{ 
+    typedef int marks; 
+    typedef float shap; 
+    marks m1,m2; 
+    shap s1,s2; 
+    clrscr(); 
+    m1=10; 
+    m2=20; 
+    s1=30; 
+    s2=40; 
+    printf("m1=%d\n",m1); 
+    printf("m2=%d\n",m2); 
+    printf("s1=%f",s1); 
+    printf("s2=%f",s2); 
+    getch(); 
+}
+Out put:
+m1=10
+m2=20
+s1=30
+s2=40</code></pre></li>
+            
+            <h2 class="text-black"><span class="text-red"> =></span> &emsp14; No 11 program          </h2>
+            <li><pre class="language-c language"><code>/* This is program is used to enum datatype */ 
+#include&lt;stdio.h> 
+#include&lt;conio.h> 
+enum  month{ 
+    jan, 
+    fed, 
+    march, 
+    apr, 
+    may, 
+    jun=1 
+    julay, 
+    agu, 
+    sep, 
+    oct, 
+    nev, 
+    des                      
+}; 
+void main(void) 
+{ 
+    enum month monthstart,monthend; 
+    clrscr(); 
+    monthstart=jun; 
+    monthend=des; 
+    printf("Monthstars=%d\n",monthstart); 
+    printf("Monthend=%d\n",monthend)                     
+    getch(); 
+} 
+
+Out put:
+Monthstars=1 
+Monthend=7 </code></pre></li>
+           
+            <h2 class="text-black"><span class="text-red"> =></span> &emsp14; No 12 program          </h2>
+            <li><pre class="language-c language"><code>/* This program is contant create student result useing Arithmhatic operator */ 
+#include&lt;stdio.h> 
+#include&lt;conio.h> 
+void main(void)
+{ 
+    int clang,os,co,dbms,total,per;   
+    clrscr(); 
+    printf("Enter the marks of for subject \n"); 
+    scanf("%d%d%d%d",&clang,&os,&co,&dbms); 
+    total=clang+os+co+dbms; 
+    per=total/4; 
+    printf("total=%d\n",total); 
+    printf("per=%d\n",per); 
+    getch(); 
+} 
+
+Out put:
+Enter the marks of for subject 
+80 
+80 
+80 
+80 
+total=320 
+per=80</code></pre></li>
+            <h2 class="text-black"><span class="text-red"> =></span> &emsp14; No 13   program   </h2>
+            <li><pre class="language-c language"><code>//The program mad by relational operators. Like &lt;,>,=&lt;,=>,==,!=.
+#include&lt;stdio.h>
+#include&lt;conio.h>
+//A=per is 90 up
+//B=per is beatween 80 to 90
+//C=per is beatween 50 to 80
+//D=per is down 50
+void main(void)
+{
+   int math,account,os,total,per;
+   clrscr();
+   printf("Enter the marks of three subject\n");
+   scanf("%d%d%d",&math,&account,&os);
+   total=math + account + os;
+   per=total/3;
+   printf("total=%d\n",total);
+   printf("per=%d\n",per);
+   if(per>90)
+   {
+      printf("Gred=A\n");
+   }
+   else if(per>80 && per&lt;=90)
+   {
+      printf("Gred=B\n");
+   }
+   else if(per>50 && per&lt;=80)
+   {
+      printf("Gred=C\n");
+   }
+   else
+   {
+      printf("Gred=D\n")
+   }
+   getch();
+}
+
+output:
+Enter the marks of three subject
+10
+20
+30
+total=60
+per=20
+Gred=D</code></pre></li>
+            <h2 class="text-black"><span class="text-red"> =></span> &emsp14; No 14   program   </h2>
+            <li><pre class="language-c language"><code>//The program use of logicle operators.like &&,ll.
+//&=and
+//||=or
+#include&lt;stdio.h>
+#include&lt;conio.h>
+void main(void)
+{
+   int n;
+   clrscr();
+   printf("Enter the one value\n");
+   scanf("%d",&n);
+   if(n==5 && n&lt;10)
+   {
+      printf("First condition\n");
+   }
+   if(n==12 || n>10)
+   {
+      printf("second conditon\n");
+   }
+   getch();
+}
+
+output:
+Enter the one value
+11
+second conditon </code></pre></li>
+            <h2 class="text-black"><span class="text-red"> =></span> &emsp14; No 15,16 combain   program   </h2>
+            <li><pre class="language-c language"><code>//The program is used for shorthand assignment operators.like x+,x-Etc and incriment and dicrment operator.
+//short =
+//incriment operator ++
+//decriment operator --
+#include&lt;stdio.h>
+#include&lt;conio.h>
+void main(void)
+{
+    int a=5,b=10,c=15;
+    clrscr();
+    a *= 5;
+    printf("a=%d\n",a);
+    b++;
+    b++;
+    printf("b=%d\n",b);
+    c--;
+    printf("c=%d\n",c);
+    getch();
+}
+
+output:
+a=25
+b=12
+c=14 </code></pre></li>
+            <h2 class="text-black"><span class="text-red"> =></span> &emsp14; No 17   program   </h2>
+            <li><pre class="language-c language"><code>//The program is in use of conditional opartor and chak for evan value and ode value .
+#include&lt;stdio.h>
+#include&lt;conio.h>
+void main(void)
+{
+    int x;
+    clrscr();
+    printf("Enter the value\n");
+    scanf("%d",&x);
+    max=(x%2==0)?0:1;
+    if(max==0)
+    {
+        printf("even value\n");
+    }
+    else
+    {
+        printf("odd value\n");
+    }
+    getch();
+}
+
+output:
+Enter the value
+3
+odd value</code></pre></li>
+            <h2 class="text-black"><span class="text-red"> =></span> &emsp14; No 18   program   </h2>
+            <li><pre class="language-c language"><code>//The program is use of comma oparetors.
+#include&lt;stdio.h>
+#include&lt;conio.h>
+void main(void)
+{
+   float x,y,z;
+   clrscr();
+   //x=10;
+   //y=20;
+   //z=x+y
+   z=(x=10,y=20,x+y)
+   printf("z=%d\n",z)
+   getch();
+}
+
+output:
+z=30</code></pre></li>
+            <h2 class="text-black"><span class="text-red"> =></span> &emsp14; No 19   program   </h2>
+            <li><pre class="language-c language"><code>//The size of oparetors.
+#include&lt;stdio.h>
+#include&lt;conio.h>
+void main(void)
+{
+   float a,b,c,d,e,f,g;
+   int x;
+   float y;
+   char z;
+   clrscr();
+   a=size of(x);
+   b=size of(y);
+   c=size of(z);
+   d=size of(int);
+   e=size of(float);
+   f=size of(char);
+   printf("size of variable x=%d\n",a);
+   printf("size of variable y=%d\n",b)
+   printf("size of variable z=%d\n",c)
+   printf("=%d\n",d)
+   printf("size of datatype float=%d\n",e)
+   printf("size of datatype char=%d\n",f)
+   getch();
+}
+
+output:
+size of variabel x=2
+size of variabel x=4
+size of variabel x=1
+size of datatype int=2
+size of datatype float=4
+size of datatype char=1</code></pre></li>
+            <h2 class="text-black"><span class="text-red"> =></span> &emsp14; No 20   program   </h2>
+            <li><pre class="language-c language"><code>//The program is find maximam value for two given value use (if-else)
+#include&lt;stdio.h>
+#include&lt;conio.h>
+void main(void)
+{
+   int x,y;
+   clrscr();
+   printf("Enter the two value for find max value\n");
+   scanf("%d%d",&x,&y);
+   if(x>y)
+   {
+      printf("maximam value=%d\n",x);
+   }
+   else
+   {
+      printf("minimum value=%d\n",y);
+   }
+   getch();
+}
+
+output:
+Enter the two value for find max value
+1000
+3000
+maximam value=3000</code></pre></li>
+            <h2 class="text-black"><span class="text-red"> =></span> &emsp14; No 21  program   </h2>
+            <li><pre class="language-c language"><code>//The program is given one value and fined this value positeve and negative value use else-if ladder
+#include&lt;stdio.h>
+#include&lt;conio.h>
+void main(void)
+{
+    int x;
+    clrscr();
+    printf("Enter the one value for chack positeve and nagegive value\n");
+    scanf("%d",&x);
+    if(x&lt;0)
+    {
+        printf("%d is nagetive value \n",x);
+    }
+    else if(x>0)
+    {
+        printf("%d is positeve value \n",x);
+    }
+    else
+    {
+        printf("value is 0 \n");
+    }
+    getch();
+}
+
+output:
+Enter the one value for chack positeve and nagegive 
+-7
+-7 is nagetive value</code></pre></li>
+            <h2 class="text-black"><span class="text-red"> =></span> &emsp14; No 22   program   </h2>
+            <li><pre class="language-c language"><code>//The program fined max value for to given value
+this program answer in program No 20......
+            </code></pre></li>
+            <h2 class="text-black"><span class="text-red"> =></span> &emsp14; No 23   program   </h2>
+            <li><pre class="language-c language"><code>//The Program to fined even and odd value use of (if-else)
+#include&lt;stdio.h>
+#include&lt;conio.h>
+void main(void)
+{
+    int x;
+    clrscr();
+    printf("Enter the value for check even value and odd vlaue\n");
+    scanf("%d",&x);                    
+    if(x%2==0)
+    {
+        printf("even value\n");
+    }
+    else
+    {
+        printf("odd value\n");
+    }
+    getch();
+}
+
+output:
+Enter the value for check even value and odd vlaue
+10
+even vlaue</code></pre></li>
+            <h2 class="text-black"><span class="text-red"> =></span> &emsp14; No 24   program   </h2>
+            <li><pre class="language-c language"><code>//Create result (Neset if else)
+#include&lt;stdio.h>
+#include&lt;conio.h>
+void main(void)
+{
+    int co,office,cs,total,per;
+    clrscr();
+    printf("Enter the marks of three sub for create result\n");
+    scanf("%d%d%d",&co,&office,&cs);
+    total=co + office + cs;
+    per=total/3;
+    if(co>35 && office>35 && cs>35)
+    {
+        printf("per=%d\n",per);
+        if(per>=80)
+        {
+            printf("GRED A\n");
+        }
+        else if(per>=60 && per&lt;80)
+        {
+            printf("GRED B\n");
+        }
+        else
+        {
+            printf("GRED C\n");
+        }
+    }
+    else
+    {
+        printf("You are faill, i hope you are triy agine\n");
+    }
+    getch();
+}
+
+output:
+Enter the marks of three sub for create result
+60
+70
+80
+per=70
+GRED B</code></pre></li>
+           <h2 class="text-black"><span class="text-red"> =></span> &emsp14; No 25  program   </h2>
+            <li><pre class="language-c language"><code>//Maximum for three given value (Nesed if–else)
+#include&lt;stdio.h>
+#include&lt;conio.h>
+void main(void)
+{
+    float x,y,z;
+    clrscr();
+    printf("Enter three vlaues for check maximam vlaue\n");
+    scanf("%f%f%f",&x,&y,&z);
+    if(x>=y)
+    {
+        if(x>=z)
+        {
+            printf("%d is max value\n",x);
+        }
+        else
+        {
+            printf("%d is max value\n",z);
+        }
+    }
+    else 
+    {
+        if(y>=z)
+        {
+            printf("%d is max value\n",y);
+        }
+        else
+        {
+            printf("%d is max value\n",z);
+        }
+    }
+    getch();
+}
+
+output:
+Enter three vlaues for check maximam vlaue
+60
+70
+80
+80 is max value</code></pre></li> 
+           <h2 class="text-black"><span class="text-red"> =></span> &emsp14; No 26   program   </h2>
+            <li><pre class="language-c language"><code>//Create program of print maximum value for three given values us of (else-if ladder)
+#include&lt;stdio.h>
+#include&lt;conio.h>
+void main(void)
+{
+    float x,y,z;
+    clrscr();
+    printf("Enter three vlaues for check maximam vlaue\n");
+    scanf("%f%f%f",&x,&y,&z);
+    if(x>=y && x>=z)
+    {
+        print("%d is maximum vlaue\n",x);
+    }
+    else if(y>=x && y>=z)
+    {
+        print("%d is maximum vlaue\n",y);
+    }
+    else
+    {
+        print("%d is maximum vlaue\n",z);
+    }
+    getch();
+}
+
+output:
+Enter three vlaues for check maximam vlaue
+200
+5000
+3000
+5000 is max value</code></pre></li> 
+
+        </ul>
+    </div>
+   
+</body>
+</html>

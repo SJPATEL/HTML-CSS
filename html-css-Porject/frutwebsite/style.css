@@ -1,0 +1,366 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,800;1,300;1,400;1,700&display=swap');
+
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+     font-family: 'Poppins', sans-serif;
+}
+
+/* ############# utility class ########### */
+.container{
+    max-width: 1200px;
+    width: 90%;
+    margin: auto;
+}
+.btn{
+    padding: 0.6rem 3rem;
+    border-radius: 50px;
+    text-transform: uppercase;
+    font-size: 1rem;
+    letter-spacing: 0.2rem;
+    font-weight: 700;
+    text-decoration: none;
+}
+.btn-primary{
+    background: green;
+    color: #fff;
+}
+/* ################## navbar ################ */
+
+/* ############ destop mod ####### */
+
+.navbar input[type="checkbox"],
+.navbar .lines{
+    display: none;
+}
+.navbar{
+    box-shadow: 0 5px 10px 0 #aaa;
+    position: fixed;
+    background-color: #fff;
+    color: #000;
+    width: 100%;
+    opacity: 0.85;
+    z-index: 999;
+}
+.navbar-container{
+    display: flex;
+    justify-content: space-between;
+    height: 64px;
+    align-items: center;
+
+}
+.navbar .items{
+    order: 2;
+    display: flex;
+  
+}
+.navbar .items li{
+    font-size: 1.6rem;
+    list-style: none;  
+    margin-left: 1.5rem;
+}
+.navbar .items li a{
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+.navbar .items li a:hover{
+    color: green;
+}
+.logo{
+    order: 1;
+    font-size: 3rem;
+    font-weight:700;
+}
+
+/* ######################## showcase-area ################## */
+.showcase-area{
+    height: 60vh;
+    background: url("./foodimg/header-image2.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.showcase-container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    
+}
+.showcase-container .showcase-h1{
+    font-size: 1.7rem;
+    letter-spacing: 0.1rem;
+    padding-bottom: 0.8rem;
+    text-transform: uppercase;
+}
+.showcase-container p{
+    font-size: 1.5rem;
+    letter-spacing: 0.1rem;
+    padding-bottom: 1.5rem;
+}
+/* ################### about us ############  */
+.about-us{
+    background: #f4f4f4;
+}
+.about-us .text-box p{
+    font-size: 1.5rem;
+    color: #555;
+}
+.about-us .about-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.about-us .text-box h1{
+    font-size: 3rem;
+    font-weight: 500;
+    letter-spacing: 0.1rem;
+}
+.about-us .text-box{
+    flex: 1 1 400px;
+    padding: 30px;
+    margin: auto;
+    transform: translate(-150%);
+    animation: text-box-animation 0.8s ease-in-out forwards;
+}
+@keyframes text-box-animation{
+    100%{
+        transform:translate(0);
+    }
+}
+.about-us .img-box{
+    flex: 1 1 400px;
+    padding: 30px;
+    transform: translate(150%);
+    animation: img-box-animation 0.8s ease-in-out forwards;
+}
+@keyframes img-box-animation{
+    100%{
+        transform:translate(0);
+    }
+}
+.about-us .img-box img{
+    height: 300px;
+    max-width: 100%;
+    display: block;
+    margin: auto;
+    object-fit: cover;
+    object-position: right;
+}
+
+/* ############### category #####################  */
+.category-container{
+    display: flex;
+    justify-content: space-between;
+    /* border: 4px solid green; */
+    max-width: 900px;
+    width: 90%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}   
+#category h2{
+    text-align:  center;
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    padding-top: 2rem; 
+}
+.food .img  img{
+    display: block;
+    height: 200px;
+    width: 100%;
+    padding-left: 1rem;
+    object-fit: cover;
+    object-position: center;
+    display: inline;
+   
+}
+.food .img::after{
+    content: '';
+    position: absolute;
+    top: 0px;
+    left: 10px;
+    width: 97%;
+    height: 100%;
+    background:rgba(43, 42, 42, 0.849);
+    transform: scaley(0);
+    transform-origin:100% 100% ;
+    transition: all 0.5s ease-in-out;
+    z-index: 0;
+    opacity: 0;
+}
+.food .img:hover::after{
+    opacity: 1;
+    transform: scaley(1);
+}
+.food .img{
+    position: relative;
+}
+.food .img .img-contant{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 1;
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
+}
+.food .img:hover .img-contant{
+    opacity: 1;
+    top: 40%;
+}
+.food .img  .img-contant h3{
+    padding-bottom: 1rem;
+    font-size: 2rem;
+    color: #fff;
+}
+
+/* ################## food manu ################  */
+.food-header{
+    font-size: 2rem;
+    text-align: center;
+    margin: 2rem 0;
+    color: #555;
+}
+.manu-container{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.food-manu1{
+    display: flex;
+    padding: 30px 0px 10px 0px;
+}
+ .food-manu1 .img img{
+    display: block;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.food-manu1 .text{
+    margin: auto;
+    padding: 10px
+}
+.food-manu1 .text .text-head{
+    font-size: 1.8rem;
+}
+.food-manu1 .text p{
+    font-weight: 400;
+    
+}
+ .food-manu1 .text .food-price{
+    color: red;
+    font-weight: 600;
+} 
+
+/* ############# testimoniao ###################  */
+#testimonial{
+    margin-top: 2rem;
+    background-color: rgba(241, 239, 239, 0.801);
+    padding: 2rem;
+}
+
+.testimonial-header{
+    text-align: center;
+    font-size: 2rem;
+    color: #555;
+    padding-bottom: 1rem;
+}
+
+.testimonial-container{
+    display: flex;
+    justify-content: space-between;
+}
+.testimonial-box{
+    font-size: 1.2rem;
+    padding: 0 2rem;
+    text-align: center;
+    margin: auto;
+}
+.testimonial-box span{
+    color: orangered;
+}
+.testimonial-img{
+    padding: 1rem 0;
+}
+.testimonial-img img{
+    display: block;
+    height: 100px;
+    width: 100px;
+    margin: auto;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+}
+
+/* ################### contact #################  */
+#contact{
+    padding: 3rem 0;
+    background: rgb(229, 235, 238);
+}
+.contact-container{
+    display: flex;
+    width: 60%;
+}
+.contact-img{
+    width: 50%;
+    height:350px;
+}
+.contact-img img{
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    height: 100%;
+}
+.contact-form{
+    padding: 1rem;
+    background: #fff;
+    width: 50%;
+    /* height:300px; */
+}
+.contact-form h2{
+    font-size: 3rem;
+    padding-bottom: 1rem;
+    font-weight: 400;
+    color: #555;
+}
+.contact-form input{
+    display: block;
+    border: none;
+    border-bottom: 2px solid rgb(156, 153, 153);
+    margin-bottom: 1rem;
+    width: 100%;
+    font-size: 1.5rem;
+}
+.contact-form textarea{
+    margin-bottom: 1rem;
+    border: none;
+    font-size: 1.5rem;
+    width: 100%;
+    border-bottom: 2px solid rgb(156, 153, 153);
+}
+
+/* ############ .navbar ##################  */
+.nav-bar{
+    font-size: 1.4rem;
+    letter-spacing: 0.1rem;
+    color: #fff;
+    background: rgb(65, 65, 65);
+    padding: 2rem;
+    text-align: center;
+}
+.nav-bar h2{
+    font-weight: 400;
+}
+
+

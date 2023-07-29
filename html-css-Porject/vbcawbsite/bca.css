@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,500;1,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+/* ##################### utility class ################## */
+
+.lg-text{
+   font-size: 3em;
+}
+.md-text{
+   font-size: 2em;
+}
+.text-white{
+    color: white;
+}
+.text-green{
+    color: green;
+}
+.text-red{
+    color: rgb(240, 6, 6);
+}
+.text-gray{
+    color: rgb(102, 101, 101);
+}
+.text-font{
+    font-family: 'Roboto', sans-serif;
+}
+.btn{
+    background: #fff;
+    padding: 1rem 2rem;
+    letter-spacing: 0.5rem;
+    font-size: 2rem;
+    text-decoration: none;
+    border-radius: 10em;
+}
+
+/* ######################## sam 1 cod ################## */
+  /* #################### navbar ############### */
+
+.main-navbar{
+    padding-top: 2rem;
+}
+.main-navbar span{
+    padding-top: 2rem;
+    letter-spacing: 0.3rem;
+    font-weight: 900;
+}
+.items{
+    float: right;
+    display: flex;
+    flex-direction: row;
+}
+.items li{
+    padding: 0 2rem;
+    list-style: none;
+   
+    text-decoration: none;
+
+}
+.items li a{
+    color: #fff;
+    letter-spacing: 0.2rem;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 2.2rem;
+}
+.items li a:hover{
+    border-bottom: 2px solid #fff;
+}
+.main-navbar .logo{
+    padding-left: 5em;
+}
+ /* #################### background img .main-navbar2 ################### */
+
+.header{
+    height: 97vh;
+    background: linear-gradient(rgb(0,0,0,0.5),rgb(0,0,0,0.5)),url('./imgcode/pexels-markus-spiske-1089438.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.main-navbar2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.main-navbar2 p{
+    font-size: 2rem;
+    letter-spacing: 0.2rem;
+    font-weight: 400;
+    padding-bottom: 3rem;
+}
+/* ######################### sowcase ################## */
+.sowcase{
+    height: 400px;
+    background: rgba(226, 221, 221, 0.938);
+    padding-top: 5rem;
+}
+.sowcase-2{
+    height: 300px;
+    width: 70%;
+    margin: 0 auto;
+    box-shadow: 0 0 10px 0  rgb(56, 54, 54);
+}
+.sowcase-2 .img-box{
+    height: 100%;
+    width: 50%;
+    float: left;
+}
+.sowcase-2 .img-box img{
+    width: 100%;
+    height: 100%;
+}
+.sowcase-2 .text-box{
+    float: right;
+    width: 50%;
+    height: 100%;
+    background-color: #fff;
+    
+}
+.sowcase-2 .text-box h1{
+    font-size: 3rem;
+    letter-spacing: 0.2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.sowcase-2 .text-box ul{
+    font-size: 1.5rem;
+    letter-spacing: 0.1rem;
+    font-weight: 500;
+    padding-left: 5rem;
+}
+.sowcase-2 .text-box ul li{
+    padding-bottom: 0.3rem;
+}
+ /* ########################## sam1 ############# */
+.sam-1-1 h1{
+    padding-top: 2rem;
+    border-bottom: 5px solid red;
+    margin-bottom: 2rem;
+}
+.sam-1-1 .sub1 h2{
+    border-bottom: 4px solid red;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    width: 70%;
+}
+.sam-1-1 .sub1 embed{
+    width: 240px;
+    height: 250px;
+    /* display: flex; */
+    margin-bottom: 1rem;   
+    
+}
+
+.sam-1-1 .sub1 a{
+    display: block;
+    border: 2px solid red;
+    font-size: 1rem;
+    text-transform: uppercase;
+    width: 30%;
+}
+.sam-1-1 .sub1 a:hover{
+    background: rgb(241, 240, 238);
+}
+.sam-1-1 .sub2 h2{
+    border-bottom: 4px solid red;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    width: 70%;
+    margin: 1rem 0;
+}
+.sam-1-1 .sub2 embed{
+    width: 240px;
+    height: 250px;
+    /* display: flex; */
+    margin-bottom: 1rem;     
+}
+.sam-1-1 .sub3 h2{
+    border-bottom: 4px solid red;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    width: 70%;
+    margin: 1rem 0;
+}
+.sam-1-1 .sub3 embed{
+    width: 240px;
+    height: 250px;
+    /* display: flex; */
+    margin-bottom: 1rem;     
+}
+.sam-1-1 .sub4 h2{
+    border-bottom: 4px solid red;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    width: 70%;
+    margin: 1rem 0;
+}
+.sam-1-1 .sub4 embed{
+    width: 240px;
+    height: 250px;
+    /* display: flex; */
+    margin-bottom: 1rem;     
+}
+
+/* #################### sam2 #################  */
+
+.header2{
+    background: black;
+    color: #fff;
+    height: 100px;
+}
+
+.sam-2-2 h1{
+    padding-top: 2rem;
+    border-bottom: 5px solid red;
+    margin-bottom: 2rem;
+}

@@ -1,0 +1,292 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;1,300&display=swap');
+*,
+::after,
+::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* ################################ utility class ############################### */
+.lg-text{
+    font-size: 3rem;
+}
+.md-text{
+    font-size: 2rem;
+}
+.text-red{
+    color: rgb(255, 0, 0);
+    font-weight: bold;
+}
+.text-green{
+    color: green;
+}
+.text-light{
+    color: rgb(117, 140, 165);
+}
+.text-white{
+    color: #fff;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+.btn{
+    border: 2px solid red;
+    background-color: #fff;
+    padding: 1rem 3rem;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.btn:hover{
+    background:rgb(204, 195, 195);
+}
+
+/* ###################################  nav bar ################################  */
+.header{
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.3),rgb(0,0,0,0.3)),url(./img/pexels-janko-ferlic-590493.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.navbar .logo{
+    font-size: 4rem;
+    font-weight: bold;
+}
+.navbar ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+.navbar ul li a:hover{
+    border-bottom: 2px solid #fff;
+}
+.navbar ul li{
+    list-style: none;
+    padding-left: 1.3rem;
+    font-size: 2rem;
+    font-weight: 500;
+}
+.navbar ul{
+    padding-top: 1rem;
+    float: right;
+    display: flex;
+}
+.navbar{
+    content: "";
+    display: block;
+    clear: both;
+    padding-top: 2rem;
+    
+}
+
+.navbar2{
+    /* border: 2px solid #fff; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+    text-align: center;
+}
+.navbar2 h2{
+    border-bottom: 6px solid #fff;
+    width: 100%;
+}
+.navbar2 h3{
+    padding-bottom: 2rem;
+}
+.circle{
+    height: 25px;
+    width: 25px;
+    background-color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    animation: move-around 3s , 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes move-around{
+    0%{
+        top: 30%;
+        left: 10%;
+        backgroun-clor:#fff;
+    }
+    25%{
+        top: 30%;
+        left: 85%;  
+        backgroun-clor:#fff;
+    }
+    50%{
+        top: 70%;
+        left: 85%;
+        background-color: cyan;
+    }
+    75%{
+        top: 70%;
+        left: 10%;
+        /* background-color: cyan; */
+    }
+    100%{
+        top: 30%;
+        top: 10%;
+        background-color: green;
+    }
+    100%{
+        top: 30%;
+        left: 10%;
+        backgroun-clor:#fff;
+    }
+}
+.w-d{
+    position: absolute;
+    top: 89.5%;
+    left: 2%;
+    font-size: 1.5rem;
+
+}
+
+/* ########################################### pdf html ##########################################  */
+
+.header-pdf{
+    background-color: rgba(27, 26, 26, 0.925);
+    color: #fff;
+}
+.pdf{
+    background-color: rgb(153, 207, 159);
+}
+.pdf h1.head{
+    padding-top: 2rem;
+    border-bottom: 4px solid red ;
+}
+.pdf .button{
+    display: inline-block;
+    border: 3px solid black;
+    padding: 0.3rem 1.5rem;
+    font-size: 2rem;
+    letter-spacing: 0.1rem;
+    float: right;
+    border-radius: 40px;
+    font-weight: bold;
+}
+.pdf .gk-pdf{
+    margin-top: 1rem;
+}
+.pdf .gk-pdf embed{
+    height: 260px;
+    width: 260px;
+    padding: 0.5rem 1rem;
+}
+/* ####################################### paper html ########################################## */
+.header-pdf{
+    background-color: rgba(27, 26, 26, 0.925);
+    color: #fff;
+}
+.paper{
+    background-color: rgb(153, 207, 159);
+}
+.paper h1.head{
+    padding-top: 2rem;
+    border-bottom: 4px solid red ;
+}
+.paper .button{
+    display: inline-block;
+    border: 3px solid black;
+    padding: 0.3rem 1.5rem;
+    font-size: 2rem;
+    letter-spacing: 0.1rem;
+    float: right;
+    border-radius: 40px;
+    font-weight: bold;
+}
+.paper .gk-paper embed{
+    height: 260px;
+    width: 260px;
+    padding: 0.5rem 1rem;
+}
+/* ########################################## img html ######################################  */
+.header-pdf{
+    background-color: rgba(27, 26, 26, 0.925);
+    color: #fff;
+}
+.img{
+    background-color: rgb(153, 207, 159);
+}
+.img h1.head{
+    padding-top: 2rem;
+    border-bottom: 4px solid red ;
+}
+.img .button{
+    display: inline-block;
+    border: 3px solid black;
+    padding: 0.3rem 1.5rem;
+    font-size: 2rem;
+    letter-spacing: 0.1rem;
+    float: right;
+    border-radius: 40px;
+    font-weight: bold;
+}
+.img .gk-img embed{
+    height: 260px;
+    width: 260px;
+    padding: 0.5rem 1rem;
+}
+
+/* ######################################### job html ########################################## */
+.header-pdf{
+    background-color: rgba(27, 26, 26, 0.925);
+    color: #fff;
+}
+.job{
+    background-color: rgb(153, 207, 159);
+}
+.job h1.head{
+    padding-top: 2rem;
+    border-bottom: 4px solid red ;
+}
+.job .button{
+    display: inline-block;
+    border: 3px solid black;
+    padding: 0.3rem 1.5rem;
+    font-size: 2rem;
+    letter-spacing: 0.1rem;
+    float: right;
+    border-radius: 40px;
+    font-weight: bold;
+}
+/* #################################### end bar ########################################  */
+.endbar{
+    background-color: rgb(31, 30, 30);
+    position: fixed;
+    top: 92%;
+    height: 70px;
+    width: 100%;
+}
+.endbar .endbar-container p{
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 600;
+}
+.endbar .endbar-container .en{
+    width: 100%;
+    text-align: center;
+}
+.endbar .endbar-container a{
+    font-size: 2rem;
+    display: inline-block;
+    text-align: center;
+    padding-left: 2rem;
+    font-weight: bold;
+    padding-top: 0.4rem;
+    text-decoration: none;
+}
