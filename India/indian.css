@@ -1,0 +1,300 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow: hidden;
+}
+
+.container .degert img {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+.container .border {
+    position: absolute;
+    top: 81px;
+    width: 100vw;
+    left: 81px;
+    height: 81vh;
+}
+
+.container .border .borderImg1 {
+    position: absolute;
+    top: 437px;
+    left: 877px;
+    height: 16px;
+    width: 53px;
+}
+
+.container .border .borderImg2 {
+    position: absolute;
+    top: 437px;
+    left: 824px;
+    height: 23px;
+    width: 53px;
+}
+
+.container .border .borderImg3 {
+    position: absolute;
+    top: 435px;
+    left: 767px;
+    height: 33px;
+    width: 58px;
+
+}
+
+.container .border .borderImg4 {
+    position: absolute;
+    top: 425px;
+    left: 686px;
+    height: 63px;
+    width: 82px;
+}
+
+.container .border .borderImg5 {
+    position: absolute;
+    top: 402px;
+    left: 603px;
+    height: 119px;
+    width: 88px;
+
+}
+
+.container .border .borderImg6 {
+    position: absolute;
+    top: 344px;
+    left: 603px;
+    height: 308px;
+    width: 80px;
+}
+
+
+.container .border .borderImg7 {
+    position: absolute;
+    top: 224px;
+    left: 681px;
+    height: 590px;
+    width: 310px;
+    z-index: 1;
+}
+
+.indianpakistanflage img {
+    position: absolute;
+    top: -221px;
+    left: 0;
+    height: 829px;
+    width: 100vw;
+    opacity: 0.4;
+}
+
+.container .indianA .indianArmy1 {
+    position: absolute;
+    top: 514px;
+    left: 873px;
+    height: 144px;
+}
+
+.container .indianA .indianArmy2 {
+    position: absolute;
+    top: 497px;
+    left: 984px;
+    height: 109px;
+}
+
+.container .indianA .indianArmy3 {
+    position: absolute;
+    top: 476px;
+    left: 933px;
+    height: 91px;
+}
+
+.container .indianA .indianArmy4 {
+    position: absolute;
+    top: 573px;
+    left: 1159px;
+    height: 286px;
+    z-index: 1;
+}
+
+.container .indianA .indianArmy5 {
+    position: absolute;
+    top: 616px;
+    left: 1427px;
+    width: 138px;
+    height: 214px;
+
+}
+
+.container .indianA .indianArmy6 {
+    position: absolute;
+    top: 558px;
+    left: 1232px;
+    height: 221px;
+}
+
+.container .indianA .fireimg1 {
+    position: absolute;
+    top: 597px;
+    left: 1151px;
+    border-radius: 63px;
+    height: 9px;
+    width: 39px;
+    transform: rotate(17deg);
+    z-index: 2;
+    opacity: 0.8;
+}
+.container .indianA .fireimg2{
+    position: absolute;
+    top: 575px;
+    left: 1223px;
+    border-radius: 63px;
+    height: 9px;
+    width: 29px;
+    transform: rotate(17deg);
+    z-index: 2;
+    opacity: 0.8;
+}
+.container .indianA .fireimg3 {
+    position: absolute;
+    top: 632px;
+    left: 1418px;
+    border-radius: 63px;
+    height: 8px;
+    width: 27px;
+    transform: rotate(17deg);
+    z-index: 2;
+    opacity: 0.8;
+}
+.container .indianA .fireimg4 {
+    position: absolute;
+    top: 578px;
+    left: 867px;
+    border-radius: 63px;
+    height: 5px;
+    width: 15px;
+    transform: rotate(-44deg);
+    opacity: 0.8;
+}
+.container .indianA .fireimg5 {
+
+    position: absolute;
+    top: 516px;
+    left: 925px;
+    border-radius: 63px;
+    height: 5px;
+    width: 15px;
+    transform: rotate(-44deg);
+    opacity: 0.6;
+
+}
+.container .indianA .fireimg6 {
+    position: absolute;
+    top: 544px;
+    left: 979px;
+    border-radius: 63px;
+    height: 5px;
+    width: 13px;
+    transform: rotate(-44deg);
+    opacity: 0.6;
+}
+
+
+.container .pakistanA .pakistanArmy1 {
+    height: 226px;
+    width: 185px;
+    position: absolute;
+    top: 484px;
+    left: 137px;
+}
+
+.container .pakistanA .pakistanArmy2 {
+    height: 302px;
+    width: 215px;
+    position: absolute;
+    top: 499px;
+    left: 216px;
+}
+
+.container .pakistanA .pakistanArmy3 {
+    height: 243px;
+    width: 180px;
+    position: absolute;
+    top: 501px;
+    left: 400px;
+}
+
+.container .pakistanA .pakistanArmy4 {
+    height: 302px;
+    width: 215px;
+    position: absolute;
+    top: 499px;
+    left: 20px;
+}
+
+.container .pakistanA .pakistanArmy5 {
+    height: 302px;
+    width: 215px;
+    position: absolute;
+    top: 538px;
+    left: 352px;
+}
+
+.container .pakistanA .pakistanArmy6 {
+    height: 302px;
+    width: 215px;
+    position: absolute;
+    top: 520px;
+    left: 548px;
+}
+
+.container .pakistanA .Pfireimg1 {
+    position: absolute;
+    top: 583px;
+    left: 745PX;
+    border-radius: 63px;
+    height: 7px;
+    width: 33px;
+    transform: rotate(192deg);
+    z-index: 2;
+    opacity: 0.8;
+}
+.container .pakistanA .Pfireimg2 {
+    position: absolute;
+    top: 551px;
+    left: 567PX;
+    border-radius: 63px;
+    height: 7px;
+    width: 27px;
+    transform: rotate(192deg);
+    z-index: 2;
+    opacity: 0.7;
+}
+.container .pakistanA .Pfireimg3 {
+
+    position: absolute;
+    top: 601px;
+    left: 554PX;
+    border-radius: 63px;
+    height: 7px;
+    width: 27px;
+    transform: rotate(189deg);
+    z-index: 2;
+    opacity: 0.9;
+
+}
+.container .pakistanA .Pfireimg4 {
+    position: absolute;
+    top: 562px;
+    left: 222PX;
+    border-radius: 63px;
+    height: 7px;
+    width: 27px;
+    transform: rotate(189deg);
+    z-index: 2;
+    opacity: 0.9;
+}
